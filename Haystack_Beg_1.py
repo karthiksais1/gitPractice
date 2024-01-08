@@ -1,5 +1,5 @@
 from haystack.document_stores import InMemoryDocumentStore
-
+#new_branch
 document_store = InMemoryDocumentStore(use_bm25=True) #to fill this in with documents
 
 from haystack.utils import fetch_archive_from_http
@@ -39,7 +39,7 @@ from haystack.utils import print_answers
 
 print_answers(prediction, details="minimum")  ## Choose from `minimum`, `medium`, and `all`
 
-
+#edited in new_branch
 
 
 
